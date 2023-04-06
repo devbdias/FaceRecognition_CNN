@@ -3,6 +3,9 @@ from tensorflow.keras import layers, models
 import glob
 import cv2
 import numpy as np
+import datetime
+
+inicio = datetime.datetime.now()
 
 # Carregando as bases de imagens conhecidas e desconhecidas
 known_dataset = glob.glob(r'src\assets\conhecidos\*')
@@ -54,3 +57,7 @@ for i, unknown_image in enumerate(unknown_images):
         # Predição da similaridade entre as duas imagens
         similarity = model.predict(np.array([unknown_image, known_image]))
         print("Imagem %s x Imagem %s: %.2f%% similaridade" % (known_dataset[j].split("/")[-1].split(".")[0], unknown_dataset[i].split("/")[-1].split(".")[0], similarity[0][j]*100))
+
+fim = datetime.datetime.now()
+
+print(f'Tempo de execção: {fim - inicio}')
