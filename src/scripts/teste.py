@@ -4,6 +4,7 @@ import glob
 import cv2
 import numpy as np
 import datetime
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 
 # Carregando as bases de imagens conhecidas e desconhecidas
 known_dataset = glob.glob(r'src\assets\conhecidos\*')
@@ -50,9 +51,32 @@ model.fit(np.concatenate((known_images, unknown_images), axis=0),
           validation_split=0.2)
 
 # Avaliação das imagens desconhecidas
-for i, unknown_image in enumerate(unknown_images):
-    for j, known_image in enumerate(known_images):
-        # Predição da similaridade entre as duas imagens
-        similarity = model.predict(np.array([unknown_image, known_image]))
-        precisao = (known_dataset[j].split("/")[-1].split(".")[0], unknown_dataset[i].split("/")[-1].split(".")[0], similarity[0][j]*100)
-        print("Imagem %s x Imagem %s: %.2f%% similaridade" % precisao)
+predicted_probabilities = model.predict(np.concatenate((known_images, unknown_images), axis=0))
+predicted_labels = np.argmax(predicted_probabilities, axis=1)
+true_labels = np.concatenate((known_labels, unknown_labels), axis=0)
+
+# Métricas adicionais
+accuracy = accuracy_score(true_labels, predicted_labels)
+precision = precision_score(true_labels, predicted_labels, average='weighted')
+recall = recall_score(true_labels, predicted_labels, average='weighted')
+f1 = f1_score(true_labels, predicted_labels, average='weighted')
+macro_precision = precision_score(true_labels, predicted_labels, average='macro')
+macro_recall = recall_score(true_labels, predicted_labels, average='macro')
+macro_f1 = f1_score(true_labels, predicted_labels, average='macro')
+
+# Relatório de classificação
+print("Relatório de Classificação:")
+print(classification_report(true_labels, predicted_labels))
+
+# Matriz de Confusão
+print("Matriz de Confusão:")
+print(confusion_matrix(true_labels, predicted_labels))
+
+# Métricas de desempenho
+print("Acurácia:", accuracy)
+print("Precisão (Weighted):", precision)
+print("Recall (Weighted):", recall)
+print("F1-score (Weighted):", f1)
+print("Precisão (Macro):", macro_precision)
+print("Recall (Macro):", macro_recall)
+print("F1-score (Macro):", macro_f1)

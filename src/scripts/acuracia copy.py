@@ -4,7 +4,8 @@ import glob
 import cv2
 import numpy as np
 import datetime
-
+from sklearn.metrics import precision_score, recall_score, f1_score, precision_recall_curve, precision_recall_fscore_support
+inicio = datetime.datetime.now()
 # Carregando as bases de imagens conhecidas e desconhecidas
 known_dataset = glob.glob(r'src\assets\conhecidos\*')
 unknown_dataset = glob.glob(r'src\assets\desconhecidos\*')
@@ -50,9 +51,49 @@ model.fit(np.concatenate((known_images, unknown_images), axis=0),
           validation_split=0.2)
 
 # Avaliação das imagens desconhecidas
+predicted_labels = []
 for i, unknown_image in enumerate(unknown_images):
+    similarities = []
     for j, known_image in enumerate(known_images):
         # Predição da similaridade entre as duas imagens
         similarity = model.predict(np.array([unknown_image, known_image]))
-        precisao = (known_dataset[j].split("/")[-1].split(".")[0], unknown_dataset[i].split("/")[-1].split(".")[0], similarity[0][j]*100)
-        print("Imagem %s x Imagem %s: %.2f%% similaridade" % precisao)
+        similarities.append(similarity[0][j])
+    max_similarity = max(similarities)
+    predicted_label = np.argmax(similarities)
+    predicted_labels.append(predicted_label)
+    print("Imagem %s: classificada como %s com %.2f%% similaridade" % (unknown_dataset[i].split("/")[-1].split(".")[0], 
+                                                                        known_dataset[predicted_label].split("/")[-1].split(".")[0], 
+                                                                        max_similarity*100))
+
+# Calculando métricas de avaliação
+precision, recall, thresholds = precision_recall_curve(unknown_labels, predicted_labels)
+f1 = f1_score(unknown_labels, predicted_labels)
+precision100 = precision_score(unknown_labels, predicted_labels, average='binary', pos_label=1)
+recall100 = recall_score(unknown_labels, predicted_labels, average='binary', pos_label=1)
+
+print("F1 score: %.2f" % f1)
+print("Precision for class 1: %.2f" % precision100)
+print("Recall for class 1: %.2f" % recall100)
+
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+
+# Plotando a curva precision-recall
+plt.plot(recall, precision)
+plt.xlabel('Recall')
+plt.ylabel('Precision')
+plt.title('Precision-Recall Curve')
+plt.show()
+
+# Plotando a matriz de confusão
+cm = confusion_matrix(unknown_labels, predicted_labels)
+plt.imshow(cm, cmap='binary')
+plt.xticks([0,1], ['Known', 'Unknown'])
+plt.yticks([0,1], ['Known', 'Unknown'])
+plt.xlabel('Predicted Label')
+plt.ylabel('True Label')
+plt.title('Confusion Matrix')
+plt.colorbar()
+plt.show()
+fim = datetime.datetime.now()
+print('Tempo de execução:', fim - inicio)

@@ -1,169 +1,169 @@
 Unknown Person,Known Person,Match,Accuracy
-bruno1,Bruno Dias,True,100.0
-bruno1,Camila,False,0.0
-bruno1,Daniela,False,0.0
-bruno1,Elon Musk,False,0.0
-bruno1,Jose,False,0.0
-bruno1,Nikola Tesla,False,0.0
-bruno2,Bruno Dias,True,100.0
-bruno2,Camila,False,0.0
-bruno2,Daniela,False,0.0
-bruno2,Elon Musk,False,0.0
-bruno2,Jose,False,0.0
-bruno2,Nikola Tesla,False,0.0
-bruno3,Bruno Dias,True,100.0
-bruno3,Camila,False,0.0
-bruno3,Daniela,False,0.0
-bruno3,Elon Musk,False,0.0
-bruno3,Jose,False,0.0
-bruno3,Nikola Tesla,False,0.0
-camila_1,Bruno Dias,False,0.0
-camila_1,Camila,True,100.0
-camila_1,Daniela,False,0.0
-camila_1,Elon Musk,False,0.0
-camila_1,Jose,False,0.0
-camila_1,Nikola Tesla,False,0.0
-camila_2,Bruno Dias,False,0.0
-camila_2,Camila,True,100.0
-camila_2,Daniela,False,0.0
-camila_2,Elon Musk,False,0.0
-camila_2,Jose,False,0.0
-camila_2,Nikola Tesla,False,0.0
-dani,Bruno Dias,False,0.0
-dani,Camila,False,0.0
-dani,Daniela,True,100.0
-dani,Elon Musk,False,0.0
-dani,Jose,False,0.0
-dani,Nikola Tesla,False,0.0
-dani_1,Bruno Dias,False,0.0
-dani_1,Camila,False,0.0
-dani_1,Daniela,True,100.0
-dani_1,Elon Musk,False,0.0
-dani_1,Jose,False,0.0
-dani_1,Nikola Tesla,False,0.0
-dani_10,Bruno Dias,False,0.0
-dani_10,Camila,False,0.0
-dani_10,Daniela,True,100.0
-dani_10,Elon Musk,False,0.0
-dani_10,Jose,True,100.0
-dani_10,Nikola Tesla,False,0.0
-dani_11,Bruno Dias,False,0.0
-dani_11,Camila,False,0.0
-dani_11,Daniela,True,100.0
-dani_11,Elon Musk,False,0.0
-dani_11,Jose,False,0.0
-dani_11,Nikola Tesla,False,0.0
-dani_12,Bruno Dias,False,0.0
-dani_12,Camila,False,0.0
-dani_12,Daniela,True,100.0
-dani_12,Elon Musk,False,0.0
-dani_12,Jose,False,0.0
-dani_12,Nikola Tesla,False,0.0
-dani_2,Bruno Dias,False,0.0
-dani_2,Camila,False,0.0
-dani_2,Daniela,True,100.0
-dani_2,Elon Musk,False,0.0
-dani_2,Jose,False,0.0
-dani_2,Nikola Tesla,False,0.0
-dani_3,Bruno Dias,False,0.0
-dani_3,Camila,False,0.0
-dani_3,Daniela,True,100.0
-dani_3,Elon Musk,False,0.0
-dani_3,Jose,False,0.0
-dani_3,Nikola Tesla,False,0.0
-dani_4,Bruno Dias,False,0.0
-dani_4,Camila,False,0.0
-dani_4,Daniela,True,100.0
-dani_4,Elon Musk,False,0.0
-dani_4,Jose,False,0.0
-dani_4,Nikola Tesla,False,0.0
-dani_5,Bruno Dias,False,0.0
-dani_5,Camila,False,0.0
-dani_5,Daniela,True,100.0
-dani_5,Elon Musk,False,0.0
-dani_5,Jose,True,100.0
-dani_5,Nikola Tesla,False,0.0
-dani_6,Bruno Dias,False,0.0
-dani_6,Camila,False,0.0
-dani_6,Daniela,True,100.0
-dani_6,Elon Musk,False,0.0
-dani_6,Jose,True,100.0
-dani_6,Nikola Tesla,False,0.0
-dani_7,Bruno Dias,False,0.0
-dani_7,Camila,False,0.0
-dani_7,Daniela,True,100.0
-dani_7,Elon Musk,False,0.0
-dani_7,Jose,True,100.0
-dani_7,Nikola Tesla,False,0.0
-dani_8,Bruno Dias,False,0.0
-dani_8,Camila,False,0.0
-dani_8,Daniela,True,100.0
-dani_8,Elon Musk,False,0.0
-dani_8,Jose,True,100.0
-dani_8,Nikola Tesla,False,0.0
-dani_9,Bruno Dias,False,0.0
-dani_9,Camila,False,0.0
-dani_9,Daniela,True,100.0
-dani_9,Elon Musk,False,0.0
-dani_9,Jose,True,100.0
-dani_9,Nikola Tesla,False,0.0
-elon1,Bruno Dias,False,0.0
-elon1,Camila,False,0.0
-elon1,Daniela,False,0.0
-elon1,Elon Musk,True,100.0
-elon1,Jose,False,0.0
-elon1,Nikola Tesla,False,0.0
-elon2,Bruno Dias,False,0.0
-elon2,Camila,False,0.0
-elon2,Daniela,False,0.0
-elon2,Elon Musk,True,100.0
-elon2,Jose,False,0.0
-elon2,Nikola Tesla,False,0.0
-elon3,Bruno Dias,False,0.0
-elon3,Camila,False,0.0
-elon3,Daniela,False,0.0
-elon3,Elon Musk,True,100.0
-elon3,Jose,False,0.0
-elon3,Nikola Tesla,False,0.0
-irmao_dani_1,Bruno Dias,False,0.0
-irmao_dani_1,Camila,False,0.0
-irmao_dani_1,Daniela,True,100.0
-irmao_dani_1,Elon Musk,False,0.0
-irmao_dani_1,Jose,False,0.0
-irmao_dani_1,Nikola Tesla,False,0.0
-irmao_dani_2,Bruno Dias,True,100.0
-irmao_dani_2,Camila,False,0.0
-irmao_dani_2,Daniela,True,100.0
-irmao_dani_2,Elon Musk,False,0.0
-irmao_dani_2,Jose,False,0.0
-irmao_dani_2,Nikola Tesla,False,0.0
-irmao_dani_4,Bruno Dias,False,0.0
-irmao_dani_4,Camila,False,0.0
-irmao_dani_4,Daniela,True,100.0
-irmao_dani_4,Elon Musk,False,0.0
-irmao_dani_4,Jose,True,100.0
-irmao_dani_4,Nikola Tesla,False,0.0
-irmao_dani_5,Bruno Dias,False,0.0
-irmao_dani_5,Camila,False,0.0
-irmao_dani_5,Daniela,False,0.0
-irmao_dani_5,Elon Musk,False,0.0
-irmao_dani_5,Jose,True,100.0
-irmao_dani_5,Nikola Tesla,False,0.0
-irmao_dani_6,Bruno Dias,False,0.0
-irmao_dani_6,Camila,False,0.0
-irmao_dani_6,Daniela,True,100.0
-irmao_dani_6,Elon Musk,False,0.0
-irmao_dani_6,Jose,False,0.0
-irmao_dani_6,Nikola Tesla,False,0.0
-irmao_dani_7,Bruno Dias,False,0.0
-irmao_dani_7,Camila,False,0.0
-irmao_dani_7,Daniela,True,100.0
-irmao_dani_7,Elon Musk,False,0.0
-irmao_dani_7,Jose,True,100.0
-irmao_dani_7,Nikola Tesla,False,0.0
-tesla_1,Bruno Dias,False,0.0
-tesla_1,Camila,False,0.0
-tesla_1,Daniela,False,0.0
-tesla_1,Elon Musk,False,0.0
-tesla_1,Jose,False,0.0
-tesla_1,Nikola Tesla,True,100.0
+bruno1,Bruno Dias,True,100.0,1.0,1.0,1.0
+bruno1,Camila,False,0.0,0.0,0.0,0.0
+bruno1,Daniela,False,0.0,0.0,0.0,0.0
+bruno1,Elon Musk,False,0.0,0.0,0.0,0.0
+bruno1,Jose,False,0.0,0.0,0.0,0.0
+bruno1,Nikola Tesla,False,0.0,0.0,0.0,0.0
+bruno2,Bruno Dias,True,100.0,1.0,1.0,1.0
+bruno2,Camila,False,0.0,0.0,0.0,0.0
+bruno2,Daniela,False,0.0,0.0,0.0,0.0
+bruno2,Elon Musk,False,0.0,0.0,0.0,0.0
+bruno2,Jose,False,0.0,0.0,0.0,0.0
+bruno2,Nikola Tesla,False,0.0,0.0,0.0,0.0
+bruno3,Bruno Dias,True,100.0,1.0,1.0,1.0
+bruno3,Camila,False,0.0,0.0,0.0,0.0
+bruno3,Daniela,False,0.0,0.0,0.0,0.0
+bruno3,Elon Musk,False,0.0,0.0,0.0,0.0
+bruno3,Jose,False,0.0,0.0,0.0,0.0
+bruno3,Nikola Tesla,False,0.0,0.0,0.0,0.0
+camila_1,Bruno Dias,False,0.0,0.0,0.0,0.0
+camila_1,Camila,True,100.0,1.0,1.0,1.0
+camila_1,Daniela,False,0.0,0.0,0.0,0.0
+camila_1,Elon Musk,False,0.0,0.0,0.0,0.0
+camila_1,Jose,False,0.0,0.0,0.0,0.0
+camila_1,Nikola Tesla,False,0.0,0.0,0.0,0.0
+camila_2,Bruno Dias,False,0.0,0.0,0.0,0.0
+camila_2,Camila,True,100.0,1.0,1.0,1.0
+camila_2,Daniela,False,0.0,0.0,0.0,0.0
+camila_2,Elon Musk,False,0.0,0.0,0.0,0.0
+camila_2,Jose,False,0.0,0.0,0.0,0.0
+camila_2,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani,Camila,False,0.0,0.0,0.0,0.0
+dani,Daniela,True,100.0,1.0,1.0,1.0
+dani,Elon Musk,False,0.0,0.0,0.0,0.0
+dani,Jose,False,0.0,0.0,0.0,0.0
+dani,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani_1,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani_1,Camila,False,0.0,0.0,0.0,0.0
+dani_1,Daniela,True,100.0,1.0,1.0,1.0
+dani_1,Elon Musk,False,0.0,0.0,0.0,0.0
+dani_1,Jose,False,0.0,0.0,0.0,0.0
+dani_1,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani_10,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani_10,Camila,False,0.0,0.0,0.0,0.0
+dani_10,Daniela,True,100.0,1.0,1.0,1.0
+dani_10,Elon Musk,False,0.0,0.0,0.0,0.0
+dani_10,Jose,True,100.0,1.0,1.0,1.0
+dani_10,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani_11,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani_11,Camila,False,0.0,0.0,0.0,0.0
+dani_11,Daniela,True,100.0,1.0,1.0,1.0
+dani_11,Elon Musk,False,0.0,0.0,0.0,0.0
+dani_11,Jose,False,0.0,0.0,0.0,0.0
+dani_11,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani_12,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani_12,Camila,False,0.0,0.0,0.0,0.0
+dani_12,Daniela,True,100.0,1.0,1.0,1.0
+dani_12,Elon Musk,False,0.0,0.0,0.0,0.0
+dani_12,Jose,False,0.0,0.0,0.0,0.0
+dani_12,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani_2,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani_2,Camila,False,0.0,0.0,0.0,0.0
+dani_2,Daniela,True,100.0,1.0,1.0,1.0
+dani_2,Elon Musk,False,0.0,0.0,0.0,0.0
+dani_2,Jose,False,0.0,0.0,0.0,0.0
+dani_2,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani_3,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani_3,Camila,False,0.0,0.0,0.0,0.0
+dani_3,Daniela,True,100.0,1.0,1.0,1.0
+dani_3,Elon Musk,False,0.0,0.0,0.0,0.0
+dani_3,Jose,False,0.0,0.0,0.0,0.0
+dani_3,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani_4,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani_4,Camila,False,0.0,0.0,0.0,0.0
+dani_4,Daniela,True,100.0,1.0,1.0,1.0
+dani_4,Elon Musk,False,0.0,0.0,0.0,0.0
+dani_4,Jose,False,0.0,0.0,0.0,0.0
+dani_4,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani_5,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani_5,Camila,False,0.0,0.0,0.0,0.0
+dani_5,Daniela,True,100.0,1.0,1.0,1.0
+dani_5,Elon Musk,False,0.0,0.0,0.0,0.0
+dani_5,Jose,True,100.0,1.0,1.0,1.0
+dani_5,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani_6,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani_6,Camila,False,0.0,0.0,0.0,0.0
+dani_6,Daniela,True,100.0,1.0,1.0,1.0
+dani_6,Elon Musk,False,0.0,0.0,0.0,0.0
+dani_6,Jose,True,100.0,1.0,1.0,1.0
+dani_6,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani_7,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani_7,Camila,False,0.0,0.0,0.0,0.0
+dani_7,Daniela,True,100.0,1.0,1.0,1.0
+dani_7,Elon Musk,False,0.0,0.0,0.0,0.0
+dani_7,Jose,True,100.0,1.0,1.0,1.0
+dani_7,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani_8,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani_8,Camila,False,0.0,0.0,0.0,0.0
+dani_8,Daniela,True,100.0,1.0,1.0,1.0
+dani_8,Elon Musk,False,0.0,0.0,0.0,0.0
+dani_8,Jose,True,100.0,1.0,1.0,1.0
+dani_8,Nikola Tesla,False,0.0,0.0,0.0,0.0
+dani_9,Bruno Dias,False,0.0,0.0,0.0,0.0
+dani_9,Camila,False,0.0,0.0,0.0,0.0
+dani_9,Daniela,True,100.0,1.0,1.0,1.0
+dani_9,Elon Musk,False,0.0,0.0,0.0,0.0
+dani_9,Jose,True,100.0,1.0,1.0,1.0
+dani_9,Nikola Tesla,False,0.0,0.0,0.0,0.0
+elon1,Bruno Dias,False,0.0,0.0,0.0,0.0
+elon1,Camila,False,0.0,0.0,0.0,0.0
+elon1,Daniela,False,0.0,0.0,0.0,0.0
+elon1,Elon Musk,True,100.0,1.0,1.0,1.0
+elon1,Jose,False,0.0,0.0,0.0,0.0
+elon1,Nikola Tesla,False,0.0,0.0,0.0,0.0
+elon2,Bruno Dias,False,0.0,0.0,0.0,0.0
+elon2,Camila,False,0.0,0.0,0.0,0.0
+elon2,Daniela,False,0.0,0.0,0.0,0.0
+elon2,Elon Musk,True,100.0,1.0,1.0,1.0
+elon2,Jose,False,0.0,0.0,0.0,0.0
+elon2,Nikola Tesla,False,0.0,0.0,0.0,0.0
+elon3,Bruno Dias,False,0.0,0.0,0.0,0.0
+elon3,Camila,False,0.0,0.0,0.0,0.0
+elon3,Daniela,False,0.0,0.0,0.0,0.0
+elon3,Elon Musk,True,100.0,1.0,1.0,1.0
+elon3,Jose,False,0.0,0.0,0.0,0.0
+elon3,Nikola Tesla,False,0.0,0.0,0.0,0.0
+irmao_dani_1,Bruno Dias,False,0.0,0.0,0.0,0.0
+irmao_dani_1,Camila,False,0.0,0.0,0.0,0.0
+irmao_dani_1,Daniela,True,100.0,1.0,1.0,1.0
+irmao_dani_1,Elon Musk,False,0.0,0.0,0.0,0.0
+irmao_dani_1,Jose,False,0.0,0.0,0.0,0.0
+irmao_dani_1,Nikola Tesla,False,0.0,0.0,0.0,0.0
+irmao_dani_2,Bruno Dias,True,100.0,1.0,1.0,1.0
+irmao_dani_2,Camila,False,0.0,0.0,0.0,0.0
+irmao_dani_2,Daniela,True,100.0,1.0,1.0,1.0
+irmao_dani_2,Elon Musk,False,0.0,0.0,0.0,0.0
+irmao_dani_2,Jose,False,0.0,0.0,0.0,0.0
+irmao_dani_2,Nikola Tesla,False,0.0,0.0,0.0,0.0
+irmao_dani_4,Bruno Dias,False,0.0,0.0,0.0,0.0
+irmao_dani_4,Camila,False,0.0,0.0,0.0,0.0
+irmao_dani_4,Daniela,True,100.0,1.0,1.0,1.0
+irmao_dani_4,Elon Musk,False,0.0,0.0,0.0,0.0
+irmao_dani_4,Jose,True,100.0,1.0,1.0,1.0
+irmao_dani_4,Nikola Tesla,False,0.0,0.0,0.0,0.0
+irmao_dani_5,Bruno Dias,False,0.0,0.0,0.0,0.0
+irmao_dani_5,Camila,False,0.0,0.0,0.0,0.0
+irmao_dani_5,Daniela,False,0.0,0.0,0.0,0.0
+irmao_dani_5,Elon Musk,False,0.0,0.0,0.0,0.0
+irmao_dani_5,Jose,True,100.0,1.0,1.0,1.0
+irmao_dani_5,Nikola Tesla,False,0.0,0.0,0.0,0.0
+irmao_dani_6,Bruno Dias,False,0.0,0.0,0.0,0.0
+irmao_dani_6,Camila,False,0.0,0.0,0.0,0.0
+irmao_dani_6,Daniela,True,100.0,1.0,1.0,1.0
+irmao_dani_6,Elon Musk,False,0.0,0.0,0.0,0.0
+irmao_dani_6,Jose,False,0.0,0.0,0.0,0.0
+irmao_dani_6,Nikola Tesla,False,0.0,0.0,0.0,0.0
+irmao_dani_7,Bruno Dias,False,0.0,0.0,0.0,0.0
+irmao_dani_7,Camila,False,0.0,0.0,0.0,0.0
+irmao_dani_7,Daniela,True,100.0,1.0,1.0,1.0
+irmao_dani_7,Elon Musk,False,0.0,0.0,0.0,0.0
+irmao_dani_7,Jose,True,100.0,1.0,1.0,1.0
+irmao_dani_7,Nikola Tesla,False,0.0,0.0,0.0,0.0
+tesla_1,Bruno Dias,False,0.0,0.0,0.0,0.0
+tesla_1,Camila,False,0.0,0.0,0.0,0.0
+tesla_1,Daniela,False,0.0,0.0,0.0,0.0
+tesla_1,Elon Musk,False,0.0,0.0,0.0,0.0
+tesla_1,Jose,False,0.0,0.0,0.0,0.0
+tesla_1,Nikola Tesla,True,100.0,1.0,1.0,1.0
